@@ -1,6 +1,8 @@
 # mui-persistent-drawer-boilerplate
 This is a simple express application that serves up a React page. 
 
+![](mui-demo.gif)
+
 In `App.jsx` there is an example of how to use the simple boilerplate components `Template` and `Container`.
 
 ```js
