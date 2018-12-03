@@ -36,6 +36,7 @@ export default class App extends Component {
                       <Template
                         open={this.state.open}
                         toggleDrawer={this.toggleDrawer}
+                        title="mui-persistent-drawer-boilerplate"
                         navItems={menuItems}
                         history={history}
                       />
