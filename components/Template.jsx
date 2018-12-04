@@ -76,7 +76,6 @@ const styles = (theme) => {
 
 const Template = (props) => {
   const { classes, theme } = props;
-
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -114,7 +113,7 @@ const Template = (props) => {
         <List>
           {props.navItems.map((item) => {
             return (
-              <ListItem button key={item.url} onClick={() => { return navigate(item.url); }}>
+              <ListItem button key={item.url} onClick={() => { return props.history.push(item.url); }}>
                 <ListItemText primary={item.title} />
               </ListItem>
             );

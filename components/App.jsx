@@ -11,7 +11,7 @@ import Container from './Container';
 
 const history = createBrowserHistory();
 
-const menuItems = [{ url: '/', title: 'Home' }];
+const menuItems = [{ url: '/', title: 'Home' }, { url: '/test', title: 'test' }];
 export default class App extends Component {
   constructor(props) {
     super(props);

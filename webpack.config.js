@@ -6,6 +6,7 @@ require('dotenv').config();
 
 console.log(process.env);
 module.exports = {
+  mode: 'development',
   context: __dirname,
   entry: `${__dirname}/components/index.js`,
   resolve: {
